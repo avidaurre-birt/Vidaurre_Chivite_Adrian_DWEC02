@@ -1,0 +1,19 @@
+{
+    "socios":[
+        {
+        "id": 1,
+        "nombre":"Aimar",
+        "apellido": "Oroz"
+        },
+        {
+        "id": 2,
+        "nombre":"Sergio",
+        "apellido": "Herrera"
+        },
+        {
+        "id": 3,
+        "nombre":"David",
+        "apellido": "Garcia"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <!-------------LAMADA SCRIPTS---------------------->
+        <meta charset="utf-8">
+        
+
+        
+        <!------------- TITULO DE LA PAGINA ---------------------->
+        <title>Tarea Evaluativa DWEC02</title>
+
+    </head>
+
+    <body>
+
+        <!------------- TITULO DEL APARTADO ---------------------->
+        <h1>Tarea Evaluativa DWEC02</h1>
+        <hr>
+
+        <!---------------EJERCICIO 1 - AÑADIR SOCIOS -->
+
+        <h2>Ejercicio 1 - Añadir Socios</h2>
+
+        <!-- Contenedor que alberga el formulario de introduccion de datos-->
+        <div id="contAniadirSocio">
+            <form id="formNombre" >
+                <label for="fnombre">Nombre:</label><br>
+                <input type="text" id="fnombre" name="nombre" value="Adrian"><br>
+                <label for="fapellido">Apellido:</label><br>
+                <input type="text" id="fapellido" name="apellido" value="Vidaurre"><br><br>
+                <input type="button" id="butAniadirSocio" value="Añadir" onclick="capturarDatosSocio()">
+              </form>             
+        </div>
+
+        <hr>
+
+        <!---------------EJERCICIO 2 - PINTAR SOCIOS -->
+        <h2>Ejercicio 2 - Pintar socios en la Web</h2>
+            <div id="contenedorBotonSocios">
+                <input type="button" id="butPintarSocios" 
+                value="Pintar Lista Socios" 
+                onclick="pintarListaSocios()" >             
+            </div>
+
+            <div id="contenedorPintarSocios"></div>
+        <hr>    
+
+
+        <!-------------LAMADA SCRIPTS---------------------->
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+
+    </body>
+
+
+</html>
